@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: rgb(175, 168, 168);
+            color: white;
+        }
+        div{
+        min-width: 300px;
+        width: 40%;
+        margin: 5vh auto;
+        background-color: rgb(68, 104, 124);
+        border: 4px solid white;
+        padding: 30px 60px;
+        text-align: center;
+        }
+        div ul{
+            list-style: none;
+        }
+        div li{
+            margin: 10px auto;
+            padding: 10px;
+            background-color: rgb(33, 43, 53);
+        }
+        div li button{
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>In house</h1>
+        <ul class="ToDoList" data-list_name="homework">
+            <input type="text"><input type="submit" value="NEW TASK">
+            <li>make a soup<button>USUŃ</button></li>
+            <li>clean the bathroom<button>USUŃ</button></li>
+            <li>vacuum the room<button>USUŃ</button></li>
+            <li>English learning<button>USUŃ</button></li>
+            <li>JS learning<button>USUŃ</button></li>
+        </ul><br>
+    </div>
+    <div>
+        <h1>In work</h1>
+        <ul class="ToDoList" data-list_name="homework2">
+            <input type="text"><input type="submit" value="NEW TASK">
+            <li>make a project: "To do list"<button>USUŃ</button></li>
+            <li>fix the banner<button>USUŃ</button></li>
+            <li>learn OOP<button>USUŃ</button></li>
+            <li>task at work 3<button>USUŃ</button></li>
+            <li>task at work 4<button>USUŃ</button></li>
+            <li>task at work 5<button>USUŃ</button></li>
+            <li>task at work 6<button>USUŃ</button></li>
+        </ul>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
